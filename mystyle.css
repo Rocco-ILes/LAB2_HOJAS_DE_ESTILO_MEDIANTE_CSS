@@ -1,0 +1,124 @@
+/*
+    Archivo: mystyle.css
+    Descripción: Hoja de estilos para la página de Médicos disponibles para citas
+    Autor: Iles Peña Jesús David
+    Fecha: 12 febrero 2026
+*/
+
+/* a) Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* b) Selector de ID (encabezado único) */
+.encabezado-top {
+    background-color: #ffffff;
+    padding: 20px;
+    border-top: 3px solid #f4f4f4;
+    font-family: Calibri;
+}
+
+/* g) DIV horizontales */
+#encabezado-top div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Logo */
+.imagenLogo {
+    width: 80px;
+}
+
+/* Título del encabezado */
+.titulo-encabezado {
+    margin-left: 270px;
+    font-size: 7px;
+    color: #4b0082;
+}
+
+
+/* e) Grid para organizar los médicos */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+/* c) Selector de clase general */
+.medico {
+    color: #4b0082;
+    font-family: "Times New Roman", serif;
+    font-size: 10px;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+/* d) Selector de agrupación */
+.medico1,
+.medico2,
+.medico3 {
+    border-radius: 5px;
+}
+
+/* f) Colores hexadecimales conservados */
+.medico1 {
+    background-color: #e83375;
+    text-align: right;
+    border: 2px solid #882c50;
+}
+
+.medico2 {
+    background-color: #c6e9a3;
+    text-align: center;
+    border: 2px solid #7eb14d;
+}
+
+.medico3 {
+    background-color: #8da1d0;
+    text-align: left;
+    border: 2px solid #52648d;
+}
+
+/* g) DIV horizontales */
+.horizontal div {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #4b0082;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Sección de descripción */
+.Descripcion {
+    background-color: #ffdab9;
+    font-family: Calibri;
+    font-size: 12px;
+    padding: 10px 20px 30px 40px;
+    border: 2px solid #ffb6c1;
+    border-radius: 5px;
+    text-align: center;
+    color: #4b0082;
+}
+
+.parrafo {
+    text-align: left;
+    padding-left: 10px;
+}
+
+/* Centrar imágenes de los médicos */
+.imagen-medico {
+    text-align: center;
+}
+
+/* Centrar sección de agendar cita */
+.horizontal {
+    text-align: center;
+}
+
+.top {
+
+}
